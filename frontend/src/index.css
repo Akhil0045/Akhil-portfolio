@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* All styles injected via GlobalStyles component in App.jsx */
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: #07070f; color: #e2e8f4; overflow-x: hidden; }
+}
