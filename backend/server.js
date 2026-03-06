@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 // ── Middleware ────────────────────────────────────────────────
 app.use(cors({
   // Allow your local dev server + deployed frontend URL
-  origin: ['http://localhost:3000', 'http://localhost:5173', process.env.FRONTEND_URL].filter(Boolean),
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://akhil-portfolio-theta.vercel.app', process.env.FRONTEND_URL].filter(Boolean),
 }));
 app.use(express.json());
 
