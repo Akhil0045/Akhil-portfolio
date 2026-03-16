@@ -168,7 +168,7 @@ export const LEADERSHIP = [
 
 // ── Certifications ────────────────────────────────────────────
 export const CERTIFICATIONS = [
-  { name: 'AWS Cloud Practitioner', issuer: 'Amazon Web Services', icon: '☁️', color: '#ff9900', year: '2026', link: 'https://drive.google.com/your-aws-link' },
+  { name: 'AWS Cloud Practitioner', issuer: 'Amazon Web Services', icon: '☁️', color: '#ff9900', year: '2026', link: 'https://drive.google.com/file/d/14wXqxLHSRHyaBcsktuCHnd3uvLxr8xa8/view?usp=drivesdk' },
   { name: 'Networking Essentials', issuer: 'Cisco', icon: '🌐', color: '#00bceb', year: 'ongoing', link: 'https://drive.google.com/your-cisco-link' },
   { name: 'DevOps Fundamentals', issuer: 'DevOps Institute', icon: '⚙️', color: '#a855f7', year: '2025', link: 'https://drive.google.com/your-devops-link' },
 ];
