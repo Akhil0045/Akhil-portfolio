@@ -170,7 +170,7 @@ export const LEADERSHIP = [
 export const CERTIFICATIONS = [
   { name: 'AWS Cloud Practitioner', issuer: 'Amazon Web Services', icon: '☁️', color: '#ff9900', year: '2026', link: 'https://drive.google.com/file/d/14wXqxLHSRHyaBcsktuCHnd3uvLxr8xa8/view?usp=drivesdk' },
   { name: 'Networking Essentials', issuer: 'Cisco', icon: '🌐', color: '#00bceb', year: 'ongoing', link: 'https://drive.google.com/your-cisco-link' },
-  { name: 'DevOps Fundamentals', issuer: 'DevOps Institute', icon: '⚙️', color: '#a855f7', year: '2025', link: 'https://drive.google.com/your-devops-link' },
+  { name: 'DevOps Fundamentals', issuer: 'DevOps Institute', icon: '⚙️', color: '#a855f7', year: '2025', link: 'https://www.linkedin.com/learning/certificates/bf4c0058f66ea0edb797155f0d7f3f40edcd112751ea54f74c1bd9e39093b1b0' },
 ];
 // ── EmailJS Configuration ─────────────────────────────────────
 // HOW TO SETUP (free, no backend needed):
