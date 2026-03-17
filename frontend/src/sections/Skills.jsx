@@ -358,7 +358,7 @@ function LeetCodeTracker() {
 
   useEffect(() => {
     const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
-    fetch(`${API_BASE_URL}/api/leetcode`, { signal: AbortSignal.timeout(12000) })
+    fetch(`${API_BASE_URL}/api/leetcode`, { signal: AbortSignal.timeout(45000) })
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(j => {
         if (j.error) throw new Error();

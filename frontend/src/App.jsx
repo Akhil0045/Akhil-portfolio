@@ -44,6 +44,10 @@ function Portfolio() {
   // Watch sections with IntersectionObserver
   // A section becomes 'active' once 35% of it is visible
   useEffect(() => {
+    // Wake up the backend early to mitigate cold starts
+    const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+    fetch(`${API_BASE_URL}/api/health`).catch(() => {});
+
     const sectionIds = ['home', 'about', 'projects', 'skills', 'contact'];
 
     const observer = new IntersectionObserver(
