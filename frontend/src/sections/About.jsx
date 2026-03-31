@@ -42,7 +42,7 @@ export default function About() {
             </p> */}
   <p className="reveal d3 text-lg leading-relaxed mb-5" style={{ color: '#94a3b8', fontWeight: 300 }}>
   I'm a Computer Science student who enjoys building real-world applications,
-  mainly focusing on <span style={{ color: '#00d4ff', fontWeight: 500 }}>full-stack web development</span>.
+  mainly focusing on <span style={{ color: '#00d4ff', fontWeight: 500 }}>Full-stack web development</span>.
   I also explore <span style={{ color: '#a855f7', fontWeight: 500 }}>AR/VR and game development</span>
   through projects while continuing to learn new technologies.
 </p>
